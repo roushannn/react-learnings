@@ -7,8 +7,8 @@ import {
 import './index.css';
 import Root from './Root';
 import reportWebVitals from './reportWebVitals';
-import ErrorPage from "./ErrorPage";
-import {StylingOverview} from "./StylingOverview";
+import ErrorPage from "./pages/error/ErrorPage";
+import {StylingOverview} from "./pages/styling/StylingOverview";
 
 const router = createBrowserRouter([
     {
