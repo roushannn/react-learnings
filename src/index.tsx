@@ -5,15 +5,22 @@ import {
     RouterProvider,
 } from "react-router-dom";
 import './index.css';
-import App from './App';
+import Root from './Root';
 import reportWebVitals from './reportWebVitals';
 import ErrorPage from "./ErrorPage";
+import {StylingOverview} from "./StylingOverview";
 
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <App />,
-        errorElement: <ErrorPage />
+        element: <Root />,
+        errorElement: <ErrorPage />,
+        children: [
+            {
+                path: "/styling",
+                element: <StylingOverview />
+            }
+        ]
     },
 ]);
 
