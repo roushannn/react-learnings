@@ -11,7 +11,7 @@ function App() {
           Welcome to my react learnings! <br />
           Here are some topics which I've learned:
           <ul>
-            <li>CSS stylings</li>
+            <li>CSS styling</li>
             <li>React router</li>
             <li>React redux</li>
           </ul>
