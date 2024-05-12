@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# Introduction
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+The purpose of this repository is to keep track of the learnings that I've gathered from working on various React projects. \
+Do refer to the documentation in each folder to have a deeper understanding on the knowledge gathered.
 
 ## Available Scripts
 
