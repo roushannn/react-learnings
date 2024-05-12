@@ -9,6 +9,8 @@ import Root from './Root';
 import reportWebVitals from './reportWebVitals';
 import ErrorPage from "./pages/error/ErrorPage";
 import {StylingOverview} from "./pages/styling/StylingOverview";
+import {ReduxOverview} from "./pages/redux/Redux";
+import {FormOverview} from "./pages/form/Form";
 
 const router = createBrowserRouter([
     {
@@ -19,7 +21,15 @@ const router = createBrowserRouter([
             {
                 path: "/styling",
                 element: <StylingOverview />
-            }
+            },
+            {
+                path: "/redux",
+                element: <ReduxOverview />
+            },
+            {
+                path: "/form",
+                element: <FormOverview />
+            },
         ]
     },
 ]);
