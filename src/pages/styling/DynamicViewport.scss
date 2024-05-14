@@ -1,0 +1,11 @@
+.content {
+  width: 80%;
+}
+
+img {
+  width: 60vh; // Fallback
+  width: 60svh;
+  height: 40vh; // Fallback
+  height: 40svh;
+  margin: 1rem 0;
+}

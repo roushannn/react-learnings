@@ -11,6 +11,7 @@ import ErrorPage from "./pages/error/ErrorPage";
 import {StylingOverview} from "./pages/styling/StylingOverview";
 import {ReduxOverview} from "./pages/redux/Redux";
 import {FormOverview} from "./pages/form/Form";
+import {DynamicViewport} from "./pages/styling/DynamicViewport";
 
 const router = createBrowserRouter([
     {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
                 path: "/form",
                 element: <FormOverview />
             },
+            {
+                path:"/styling/dvh",
+                element: <DynamicViewport />
+            }
         ]
     },
 ]);
